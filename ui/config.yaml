@@ -4,6 +4,6 @@ env: {}
 imageDomains: []
 publicRuntimeConfig:
   defaultThemeOptions:
-    NJP::Parameter: ui.theme.options
+    SOMOD::Parameter: ui.theme.options
 
 serverRuntimeConfig: {}

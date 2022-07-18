@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/sodaru/somod-init-template#readme",
   "devDependencies": {
-    "@somod/somod": "^1.9.5",
+    "@somod/somod": "^1.10.1",
     "eslint-config-sodaru": "^1.0.0",
     "prettier-config-sodaru": "^1.0.0"
   },
