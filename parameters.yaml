@@ -1,0 +1,13 @@
+# yaml-language-server: $schema=./node_modules/@somod/parameters-schema/schemas/index.json
+
+Parameters:
+  ui.theme.options:
+    type: multiline-text
+    default: >-
+      {
+        "palette":{
+          "primary": "#004b89",
+          "secondary": "#ffb476"
+        }
+      }
+    maxLength: 1024

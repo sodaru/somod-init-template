@@ -1,0 +1,45 @@
+{
+  "name": "somod-init-template",
+  "version": "0.0.0",
+  "description": "Template to Init the SOMOD module",
+  "module": "build/lib/index.js",
+  "typings": "build/lib/index.d.ts",
+  "files": [
+    "build"
+  ],
+  "sideEffects": false,
+  "somod": "1.9.5",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "npx prettier --check --ignore-unknown ./**/*",
+    "eslint": "npx eslint ./ --no-error-on-unmatched-pattern"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sodaru/somod-init-template.git"
+  },
+  "keywords": [
+    "somod",
+    "nextjs",
+    "aws-sam",
+    "example",
+    "sodaru"
+  ],
+  "author": "Raghavendra K R <raghavendra@sodaru.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sodaru/somod-init-template/issues"
+  },
+  "homepage": "https://github.com/sodaru/somod-init-template#readme",
+  "devDependencies": {
+    "@somod/somod": "^1.9.5",
+    "eslint-config-sodaru": "^1.0.0",
+    "prettier-config-sodaru": "^1.0.0"
+  },
+  "prettier": "prettier-config-sodaru",
+  "eslintConfig": {
+    "extends": [
+      "eslint-config-sodaru"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+# yaml-language-server: $schema=../node_modules/@somod/ui-config-schema/schemas/index.json
+
+env: {}
+imageDomains: []
+publicRuntimeConfig:
+  defaultThemeOptions:
+    NJP::Parameter: ui.theme.options
+
+serverRuntimeConfig: {}

@@ -1,0 +1,8 @@
+lib/index.ts
+serverless/template.yaml
+ui/pages/_document.tsx
+ui/pages/index.tsx
+ui/public/favicon.ico
+ui/config.yaml
+parameters.yaml
+tsconfig.json
